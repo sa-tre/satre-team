@@ -9,7 +9,7 @@ body:
     id: summary
     attributes:
       label: Summary of issue
-      description: Add a summary of your issue here
+      description: Add a summary of your issue here. You can link it to another issue by using a `#` followed by the issue number
     validations:
       required: true
   - type: textarea
@@ -17,7 +17,7 @@ body:
     attributes: 
       label: What needs to be done?
       description: Add a checklist of tasks that need to be done. We recommend creating this list using bulletpoints (indicated by * or -), followed by square brackets separated by a space [ ]. This will create a checkbox!
-      placeholder: Please use bullets (* or -) and filled checkboxes ([ ]) as necessary. To fill a checkbox put an x in the middle ([x])
+      placeholder: Please use bulletpoints (* or -) and filled checkboxes ([ ]) as necessary. To fill a checkbox put an x in the middle ([x])
     validations:
       required: true
   - type: textarea
@@ -25,7 +25,8 @@ body:
     attributes:
       label: Who can help?
       description: Add here who can help - you can do this by typing `@` followed by their GitHub username. We recommend creating this list using bulletpoints (indicated by * or -)
-  - type: checkboxes
+      placeholder: Please use bulletpoonts (* or -) to list out people who can help
+ - type: checkboxes
     id: checklist
     attributes:
       label: Issue checklist
