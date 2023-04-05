@@ -1,0 +1,40 @@
+name: "General issue"
+description: Open a general issue for this repo and the SATRe team project board
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template will guide you through the steps necessary to open an issue for this repo!
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary of issue
+      description: Add a summary of your issue here
+    validations:
+      required: true
+  - type: textarea
+    id: actions
+    attributes: 
+      label: What needs to be done?
+      description: Add a checklist of tasks that need to be done. We recommend creating this list using bulletpoints (indicated by * or -), followed by square brackets separated by a space [ ]. This will create a checkbox!
+      placeholder: Please use bullets (* or -) and filled checkboxes ([ ]) as necessary. To fill a checkbox put an x in the middle ([x])
+    validations:
+      required: true
+  - type: textarea
+        id: help
+        attributes:
+          label: Who can help?
+          description: Add here who can help - you can do this by typing `@` followed by their GitHub username. We recommend creating this list using bulletpoints (indicated by * or -)
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Issue checklist
+      description: Please ensure you have done these tasks before progressing with this issue
+      options:
+        - label: I have assigned the appropriate work package label to this issue, and added any other relevant labels
+        - label: I have added this to the `SATRE backlog (public)` project board
+    validations:
+      required: true
+        
+    
