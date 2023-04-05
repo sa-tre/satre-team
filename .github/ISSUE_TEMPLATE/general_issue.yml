@@ -25,7 +25,7 @@ body:
   attributes:
     label: Who can help?
     description: Add here who can help - you can do this by typing `@` followed by their GitHub username. We recommend creating this list using bulletpoints (indicated by * or -)
-    placeholder:  placeholder: Please use bulletpoints (* or -) to list who can help
+    placeholder: Please use bulletpoints (* or -) to list who can help
 - type: checkboxes
   id: checklist
   attributes:
