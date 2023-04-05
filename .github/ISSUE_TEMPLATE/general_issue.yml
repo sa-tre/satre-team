@@ -33,6 +33,7 @@ body:
       options:
         - label: I have assigned the appropriate work package label to this issue, and added any other relevant labels
         - label: I have added this to the `SATRE backlog (public)` project board
+        - label: I have assigned this issue to at least one person on the SATRE team
     validations:
       required: true
         
