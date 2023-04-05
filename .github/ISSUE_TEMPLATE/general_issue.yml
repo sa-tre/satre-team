@@ -1,6 +1,5 @@
 name: "General issue"
 description: Open a general issue for this repo and the SATRe team project board
-title: ""
 body:
   - type: markdown
     attributes:
