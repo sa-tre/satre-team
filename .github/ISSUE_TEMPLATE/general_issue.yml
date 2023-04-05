@@ -1,4 +1,4 @@
-name: "General issue"
+name: General issue
 description: Open a general issue for this repo and the SATRE team project board
 body:
   - type: markdown
