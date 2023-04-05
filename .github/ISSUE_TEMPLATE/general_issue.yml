@@ -9,7 +9,7 @@ body:
     id: summary
     attributes:
       label: Summary of issue
-      description: Add a summary of your issue here. You can link it to another issue by using a `#` followed by the issue number
+      description: Add a summary of your issue here.
     validations:
       required: true
   - type: textarea
@@ -25,7 +25,6 @@ body:
     attributes:
       label: Who can help?
       description: Add here who can help - you can do this by typing `@` followed by their GitHub username. We recommend creating this list using bulletpoints (indicated by * or -)
-      placeholder: Please use bulletpoonts (* or -) to list out people who can help
  - type: checkboxes
     id: checklist
     attributes:
