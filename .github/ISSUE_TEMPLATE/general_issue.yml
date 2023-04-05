@@ -22,10 +22,10 @@ body:
     validations:
       required: true
   - type: textarea
-        id: help
-        attributes:
-          label: Who can help?
-          description: Add here who can help - you can do this by typing `@` followed by their GitHub username. We recommend creating this list using bulletpoints (indicated by * or -)
+    id: help
+    attributes:
+      label: Who can help?
+      description: Add here who can help - you can do this by typing `@` followed by their GitHub username. We recommend creating this list using bulletpoints (indicated by * or -)
   - type: checkboxes
     id: checklist
     attributes:
